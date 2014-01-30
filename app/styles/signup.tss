@@ -1,0 +1,28 @@
+".menurow": {
+backgroundColor:"gray",
+width:"50%",
+right:"5%",
+top:"10"
+},
+
+".row": {
+color:"black"
+},
+
+"Label":{
+	left : '2%',
+	width: Ti.UI.SIZE
+},
+
+".switch": {
+	top:"10",
+	right:"5%"
+},
+
+".confirm": {
+	top:"10"
+},
+".signuptable": {
+	separatorColor:"transparent",
+	backgroundColor:"white"
+}

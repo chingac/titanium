@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="faqView">
+			<Button id="backButton" onClick="loadhelpview"/>
+			<Label>This is the FAQ view.</Label>
+		</View>
+	</View>
+</Alloy>

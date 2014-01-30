@@ -1,0 +1,18 @@
+<Alloy>
+	<View class="container">
+		<View id="newsViewHolder">
+			<ListView id="newsView">
+				<Templates>
+					<ItemTemplate name="newsTemplate" height="170">
+						<Label bindId="fname" class="fname"/>
+						<Label bindId="date" class="date"/>
+						<Label bindId="details" class="details"/>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="section" >
+					<ListItem class="item" template="newsTemplate" />
+				</ListSection>
+			</ListView>
+		</View>
+	</View>
+</Alloy>

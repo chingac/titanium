@@ -1,0 +1,28 @@
+<Alloy>
+	<View class="container">
+		<View id="helpViewHolder">
+			<TableView id="helptableview" onClick="select">
+				<TableViewRow class="menurowview">
+					<Label class="menulabel">Introduction</Label>
+					<Label class="submenulabel">Learn about this app.</Label>
+				</TableViewRow>
+				<TableViewRow class="menurowview">
+					<Label class="menulabel">Tips</Label>
+					<Label class="submenulabel">Getting started</Label>
+				</TableViewRow>
+				<TableViewRow class="menurowview">
+					<Label class="menulabel">FAQ</Label>
+					<Label class="submenulabel">Frequently Asked Questions</Label>
+				</TableViewRow>
+				<TableViewRow class="menurowview">
+					<Label class="menulabel">Privacy Policy</Label>
+					<Label class="submenulabel"></Label>
+				</TableViewRow>
+				<TableViewRow class="menurowview">
+					<Label class="menulabel">Feedback</Label>
+					<Label class="submenulabel"></Label>
+				</TableViewRow>
+			</TableView>
+		</View>
+	</View>
+</Alloy>

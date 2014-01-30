@@ -1,0 +1,73 @@
+".container": {
+	backgroundColor:"white",
+	//please test rotating.this should prevent screen rotation.
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+
+"#menuview":{
+	height: Ti.UI.FILL,
+	width: "35%",
+	left : '0%'
+},
+"#menuheaderview":{
+	height: '9%',
+	top: '0%',
+	width: Ti.UI.FILL,
+	backgroundColor: 'purple',
+	
+},
+"#menuheaderlabel":{
+	font: {fontSize: '20sp'}
+}
+"#menubodyview":{
+	top : '9%',
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor : '#212429'
+},
+"#menutableview":{
+	scrollable : false,
+	separatorColor : '#212429',
+	backgroundColor: '#212429'
+},
+".menurowview":{
+	height : '35dp',
+},
+".menulabel":{
+	color : 'white',
+	font : {fontSize: '15sp'}
+}
+"#mainview":{
+	height: Ti.UI.FILL,
+	//width: "35%",
+	width: Ti.UI.FILL,
+	zIndex : 10,
+	left : '0%'
+},
+"#mainheaderview":{
+	top: "0%",
+	height: "9%",
+	width: Ti.UI.FILL,
+	backgroundColor: "purple",
+},
+"#menubutton":{
+	left: '2%',
+	width: '11%',
+	height: '70%',
+	backgroundImage: "/images/Menu-icon.png"
+},
+"#mainheaderlabel":{
+	font : {fontSize: '20sp'}
+},
+"#addbutton":{
+	right: '2%',
+	width: '11%',
+	height: '70%',
+	visible: false
+},
+"#mainbodyview":{
+	top: '9%',
+	height: Ti.UI.FILL,
+	width: Ti.UI.FILL,
+	backgroundColor: 'white'
+}

@@ -1,0 +1,28 @@
+<Alloy>
+    <View>
+    	<TableView class="signuptable">
+    		<TableViewRow fontSize="50" title="Sign Up">
+    		
+    		</TableViewRow>
+    		<TableViewRow>
+    			<Label>Email:</Label>
+    			<TextField class="menurow">
+    		</TableViewRow>
+    		<TableViewRow>
+    			<Label>Password:</Label>
+    			<TextField class="menurow">
+    		</TableViewRow>
+    		<TableViewRow>
+    			<Label>Email Alerts:</Label>
+    			<Switch id="emailSwitch" class="switch" value="false" />
+    		</TableViewRow>
+    		<TableViewRow>
+    			<Label>Push Alerts:</Label>
+    			<Switch id="pushSwitch" class="switch" value="false"/>
+    		</TableViewRow>
+    		<TableViewRow>
+    			<Button title="Confirm" class="confirm"/>
+    		</TableViewRow>
+    	</TableView>
+    </View>
+</Alloy>

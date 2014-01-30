@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="privacyPolicyView">
+			<Button id="backButton" onClick="loadhelpview"/>
+			<Label>This is the privacy policy view.</Label>
+		</View>
+	</View>
+</Alloy>

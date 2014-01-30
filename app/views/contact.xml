@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="contactView">
+			<Button id="backButton" onClick="loadinfoview"/>
+			<Label>This is the contact information view.</Label>
+		</View>
+	</View>	
+</Alloy>

@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="resourceView">
+			<Button id="backButton" onClick="loadinfoview"/>
+			<Label>This is the resources view.</Label>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,29 @@
+".containerc": {
+	backgroundColor:"white",
+	//please test rotating.this should prevent screen rotation.
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+"Labelc":{
+	left : '2%',
+	height: '30%',
+	width: Ti.UI.SIZE
+},
+".descc":{
+	top : '5%',
+	font:{
+		fontSize : '15sp',
+		fontWeight: 'bold'},
+	color: 'yellow',
+	shadowColor : 'gray',
+	shadowOffset: {x:5, y:5}
+},
+".duedayc":{
+	top : '35%',
+	font:{
+		fontSize : '15sp',
+		fontWeight: 'bold'},
+	color: 'purple'
+},
+".coursec":{
+	top : '65%'
+}

@@ -1,0 +1,18 @@
+<Alloy>
+
+		<ListView id="classlist" defaultItemTemplate="classtemplate">
+			<Templates>
+				<ItemTemplate name="classtemplate" height="200">
+					<Label bindId="descc" class="descc"/>
+					<Label bindId="duedayc" class="duedayc"/>
+					<Label bindId="coursec" class="coursec"/>
+				</ItemTemplate>
+			</Templates>
+		
+			<ListSection>
+				<ListItem descc:text = "description1" duedayc:text="2010/2/11" coursec:text="whatever" />
+				<ListItem descc:text = "description222222" duedayc:text="2999/9/9" coursec:text="balabala" />
+			</ListSection>
+		</ListView>
+
+</Alloy>

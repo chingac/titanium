@@ -1,0 +1,44 @@
+<Alloy>
+	<Window class="container">
+		<View id="menuview">
+			<View id="menuheaderview">
+				<Label id="menuheaderlabel"></Label>
+			</View>
+			<View id="menubodyview">
+				<TableView id="menutableview" onClick="select">
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">News</Label>
+					</TableViewRow>
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">Calendar</Label>
+					</TableViewRow>
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">Homework</Label>
+					</TableViewRow>
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">Classes</Label>
+					</TableViewRow>
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">Information</Label>
+					</TableViewRow>
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">Sign Up</Label>
+					</TableViewRow>
+					<TableViewRow class="menurowview">
+						<Label class="menulabel">Help</Label>
+					</TableViewRow>
+				</TableView>
+			</View>	
+		</View>
+			
+		<View id="mainview">
+			<View id="mainheaderview">
+				<Button id="menubutton" onClick="showhidemenu"/>
+				<Label id="mainheaderlabel">News</Label>
+				<Button id="addbutton" />
+			</View>
+			<View id="mainbodyview" ></View>
+		</View>
+		
+	</Window>
+</Alloy>

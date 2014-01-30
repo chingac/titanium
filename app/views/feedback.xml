@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="feedbackView">
+			<Button id="backButton" onClick="loadhelpview"/>
+			<Label>This is the feedback view.</Label>
+		</View>
+	</View>
+</Alloy>

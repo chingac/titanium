@@ -1,0 +1,11 @@
+".menurowview": {
+	height:"50dp"
+},
+".menulabel": {
+	top: "10px",
+	font : {fontSize: '15sp'}
+},
+".submenulabel": {
+	bottom: "10px",
+	font : {fontSize: '10sp'}
+}

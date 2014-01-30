@@ -1,0 +1,28 @@
+".container": {
+	backgroundColor:"white",
+	//please test rotating.this should prevent screen rotation.
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+"Label":{
+	left : '2%',
+	width: Ti.UI.SIZE
+},
+".fname":{
+	top : '5%',
+	font:{
+		fontSize : '15sp',
+		fontWeight: 'bold'},
+	color: 'black',
+	
+},
+".date":{
+	top : '15%',
+	font:{
+		fontSize : '15sp',
+		fontWeight: 'bold'},
+	color: 'purple'
+},
+".details":{
+	top : '30%'
+	
+}

@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="addressView">
+			<Button id="backButton" onClick="loadinfoview"/>
+			<Label>This is the address view.</Label>
+		</View>
+	</View>
+</Alloy>

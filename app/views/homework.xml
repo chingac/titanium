@@ -1,0 +1,19 @@
+<Alloy>
+	<View class="container">
+		<View>
+			<ListView id="homeworklist" defaultItemTemplate="homeworktemplate">
+				<Templates>
+					<ItemTemplate name="homeworktemplate" height="200">
+						<Label bindId="desc" class="desc"/>
+						<Label bindId="dueday" class="dueday"/>
+						<Label bindId="course" class="course"/>
+					</ItemTemplate>
+				</Templates>
+				<ListSection>
+					<ListItem desc:text = "description1" dueday:text="2010/2/11" course:text="whatever" />
+					<ListItem desc:text = "description222222" dueday:text="2999/9/9" course:text="balabala" />
+				</ListSection>
+			</ListView>
+		</View>
+	</View>
+</Alloy>

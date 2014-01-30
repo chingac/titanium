@@ -1,0 +1,17 @@
+<Alloy>
+	<View class="container">
+		<View id="infoViewHolder">
+			<ListView id="infoView">
+				<Templates>
+					<ItemTemplate name="infoTemplate" height="50">
+						<Label bindId="title" class="title"/>
+						<Label bindId="subtitle" class="subtitle"/>
+					</ItemTemplate>
+				</Templates>
+				<ListSection id="section" >
+					<ListItem class="item" template="newsTemplate" />
+				</ListSection>
+			</ListView>
+		</View>
+	</View>
+</Alloy>

@@ -1,0 +1,32 @@
+".container": {
+	backgroundColor:"white",
+	//please test rotating.this should prevent screen rotation.
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+"Label":{
+	left : '2%',
+	height: '30%',
+	width: Ti.UI.SIZE
+},
+".desc":{
+	top : '5%',
+	font:{
+		fontSize : '15sp',
+		fontWeight: 'bold'},
+	color: 'yellow',
+	shadowColor : 'gray',
+	shadowOffset: {x:5, y:5}
+},
+".dueday":{
+	top : '35%',
+	font:{
+		fontSize : '15sp',
+		fontWeight: 'bold'},
+	color: 'purple'
+},
+".course":{
+	top : '65%'
+},
+"ListItem": {
+	height:"100dp"
+}

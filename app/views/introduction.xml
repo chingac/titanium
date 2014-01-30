@@ -1,0 +1,8 @@
+<Alloy>
+	<View class="container">
+		<View id="introductionView">
+			<Button id="backButton" onClick="loadhelpview"/>
+			<Label>This is the introduction view.</Label>
+		</View>
+	</View>
+</Alloy>
